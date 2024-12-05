@@ -1,0 +1,48 @@
+
+
+Machine Name: ﻿a_plus
+Input String: aaa
+String accepted
+Depth of the tree: 5
+Total configurations explored: 8
+Path to accept state:
+Left: , State: q1, Head: aaa
+Left: a, State: q1, Head: aa
+Left: a, State: q2, Head: aa
+Left: aa, State: q1, Head: a
+Left: aa, State: q2, Head: a
+Left: aaa, State: q1, Head: _
+Left: aaa, State: q2, Head: _
+Left: aaa_, State: qacc, Head: _
+Final Configuration: Left: aaa_, State: qacc, Head: _
+Measure of Nondeterminism: 2.00
+
+
+Machine Name: ﻿a_plus
+Input String: aaaaa
+String accepted
+Depth of the tree: 7
+Total configurations explored: 12
+Path to accept state:
+Left: , State: q1, Head: aaaaa
+Left: a, State: q1, Head: aaaa
+Left: a, State: q2, Head: aaaa
+Left: aa, State: q1, Head: aaa
+Left: aa, State: q2, Head: aaa
+Left: aaa, State: q1, Head: aa
+Left: aaa, State: q2, Head: aa
+Left: aaaa, State: q1, Head: a
+Left: aaaa, State: q2, Head: a
+Left: aaaaa, State: q1, Head: _
+Left: aaaaa, State: q2, Head: _
+Left: aaaaa_, State: qacc, Head: _
+Final Configuration: Left: aaaaa_, State: qacc, Head: _
+Measure of Nondeterminism: 2.00
+
+
+Machine Name: ﻿a_plus
+Input String: bbbbb
+String rejected after 2 steps
+Measure of Nondeterminism: 1.00
+
+
