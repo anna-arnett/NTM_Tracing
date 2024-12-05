@@ -1,0 +1,11 @@
+abc_equal
+q1,q2,q3,q4,qacc,qrej
+a,b,c
+a,b,c,_
+q1
+qacc
+qrej
+q1,a,q2,_,R
+q2,b,q3,_,R
+q3,c,q1,_,R
+q1,_,qacc,_,R

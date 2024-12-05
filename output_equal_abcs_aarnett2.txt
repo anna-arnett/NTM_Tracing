@@ -1,0 +1,49 @@
+
+Machine Name: abc_equal
+Input String: abc
+String accepted
+Depth of the tree: 5
+Total configurations explored: 5
+Path to accept state:
+Left: , State: q1, Head: abc
+Left: _, State: q2, Head: bc
+Left: __, State: q3, Head: c
+Left: ___, State: q1, Head: _
+Left: ____, State: qacc, Head: _
+Final Configuration: Left: ____, State: qacc, Head: _
+Measure of Nondeterminism: 1.25
+
+
+Machine Name: abc_equal
+Input String: abcabcabc
+String accepted
+Depth of the tree: 11
+Total configurations explored: 11
+Path to accept state:
+Left: , State: q1, Head: abcabcabc
+Left: _, State: q2, Head: bcabcabc
+Left: __, State: q3, Head: cabcabc
+Left: ___, State: q1, Head: abcabc
+Left: ____, State: q2, Head: bcabc
+Left: _____, State: q3, Head: cabc
+Left: ______, State: q1, Head: abc
+Left: _______, State: q2, Head: bc
+Left: ________, State: q3, Head: c
+Left: _________, State: q1, Head: _
+Left: __________, State: qacc, Head: _
+Final Configuration: Left: __________, State: qacc, Head: _
+Measure of Nondeterminism: 1.10
+
+
+Machine Name: abc_equal
+Input String: aaabbbcc
+String rejected after 3 steps
+Measure of Nondeterminism: 2.00
+
+
+Machine Name: abc_equal
+Input String: aaaaabbbbbbcccc
+String rejected after 3 steps
+Measure of Nondeterminism: 2.00
+
+
