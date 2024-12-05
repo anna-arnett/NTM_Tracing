@@ -1,6 +1,6 @@
 from traceTM_aarnett2 import NTM
 
-ntm = NTM("abc_star.csv", "output_abc_star_aarnett2.txt")
+ntm = NTM("data_abc_star_aarnett2.csv", "output_abc_star_aarnett2.txt")
 
 # accept
 ntm.run("abc")
